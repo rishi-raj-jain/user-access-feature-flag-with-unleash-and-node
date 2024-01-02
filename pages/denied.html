@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(Denied) Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+      <img width="1308" src="/beams.jpg" class="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" />
+      <div class="absolute inset-0 bg-[url(/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+      <div class="relative bg-white px-6 pb-8 pt-10 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+        <div class="mx-auto max-w-md">
+          <img class="h-12" alt="Unleash" src="https://www.getunleash.io/logos/unleash_pos.svg" />
+          <div class="divide-y divide-gray-300/50">
+            <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
+              <p class="text-xs">This is an example of using Node with Unleash Client SDK.</p>
+              <p>
+                <span class="rounded bg-red-100 px-1">Bummer!</span> Per the feature flag, your email does not have <span class="rounded bg-gray-100 px-1">@unleash.com</span> in
+                it, hence you are unable to view the <span class="rounded bg-yellow-100 px-1">new dashboard</span> page. Feel free to take a moment to appreciate the ease of
+                setting up feature flags with <span class="rounded bg-green-900 px-1 text-white">Unleash</span>.
+              </p>
+            </div>
+            <div class="flex flex-col gap-y-4 pt-8 text-base font-semibold leading-7">
+              <a href="/" class="max-w-max rounded border border-[#1a4048]/75 px-3 py-1 text-[#1a4048]/75 transition duration-200 hover:bg-[#1a4048] hover:text-white">
+                &larr; Go Back
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

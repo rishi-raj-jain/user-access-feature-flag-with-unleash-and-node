@@ -1,0 +1,15 @@
+{
+  "name": "user-access-feature-flag-with-unleash-and-node",
+  "scripts": {
+    "start": "node index.js",
+    "fmt": "prettier --write '**/*' --ignore-unknown"
+  },
+  "dependencies": {
+    "unleash-client": "^5.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "formidable": "^3.5.1",
+    "prettier": "^3.0.3"
+  }
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+      <img width="1308" src="/beams.jpg" class="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" />
+      <div class="absolute inset-0 bg-[url(/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
+      <div class="relative bg-white px-6 pb-8 pt-10 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+        <div class="mx-auto max-w-md">
+          <img class="h-12" alt="Unleash" src="https://www.getunleash.io/logos/unleash_pos.svg" />
+          <div class="divide-y divide-gray-300/50">
+            <div class="space-y-6 py-8 text-base leading-7 text-gray-600">
+              <p>This is an example of using Node with Unleash Client SDK.</p>
+              <p>
+                If you're part of the
+                <span class="rounded bg-gray-100 px-1">user access</span> flow set by the demo <span class="rounded bg-green-900 px-1 text-white">Unleash</span>
+                instance, you'd be taken to the new dashboard after entering your an email below 👇🏻
+              </p>
+            </div>
+            <form method="post" action="/dashboard/new" class="flex flex-col gap-y-4 pt-8 text-base font-semibold leading-7">
+              <input required name="email" type="email" placeholder="Email Address (a demo)" class="rounded border px-3 py-1 text-[#1a4048] outline-none focus:border-[#1a4048]" />
+              <button type="submit" class="max-w-max rounded border border-[#1a4048]/75 px-3 py-1 text-[#1a4048]/75 transition duration-200 hover:bg-[#1a4048] hover:text-white">
+                Proceed &rarr;
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
