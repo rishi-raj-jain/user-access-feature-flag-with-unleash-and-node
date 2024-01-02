@@ -21,7 +21,7 @@ A demo of Feature Flags with Node.js and [Unleash](https://getunleash.io).
 
 ### Platforms
 
-- [Unleash](https://getunleash.io) – Feature Flag
+- [Unleash](https://getunleash.io) – Feature Flags Management
 
 ### Code Quality
 
